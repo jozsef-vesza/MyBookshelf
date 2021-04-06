@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB953009261C9555007294F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB953008261C9555007294F4 /* AppDelegate.swift */; };
+		BB95300B261C9555007294F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB95300A261C9555007294F4 /* SceneDelegate.swift */; };
+		BB953010261C9555007294F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB95300E261C9555007294F4 /* Main.storyboard */; };
+		BB953012261C9558007294F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB953011261C9558007294F4 /* Assets.xcassets */; };
+		BB953015261C9558007294F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB953013261C9558007294F4 /* LaunchScreen.storyboard */; };
+		BB953026261C9563007294F4 /* iTunesClient.h in Headers */ = {isa = PBXBuildFile; fileRef = BB953024261C9563007294F4 /* iTunesClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB953029261C9563007294F4 /* iTunesClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB953022261C9563007294F4 /* iTunesClient.framework */; };
+		BB95302A261C9563007294F4 /* iTunesClient.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB953022261C9563007294F4 /* iTunesClient.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BB953031261C956B007294F4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB953030261C956B007294F4 /* Model.swift */; };
+		BB953034261C9581007294F4 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB953033261C9581007294F4 /* API.swift */; };
+		BB953039261C9600007294F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB953038261C9600007294F4 /* HomeViewController.swift */; };
+		BB95303D261C960A007294F4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB95303C261C960A007294F4 /* HomeViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB953027261C9563007294F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB952FFD261C9555007294F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB953021261C9563007294F4;
+			remoteInfo = iTunesClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB95302E261C9563007294F4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BB95302A261C9563007294F4 /* iTunesClient.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BB953005261C9555007294F4 /* MyBookshelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBookshelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB953008261C9555007294F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB95300A261C9555007294F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB95300F261C9555007294F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB953011261C9558007294F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB953014261C9558007294F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB953016261C9558007294F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB953022261C9563007294F4 /* iTunesClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iTunesClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB953024261C9563007294F4 /* iTunesClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunesClient.h; sourceTree = "<group>"; };
+		BB953025261C9563007294F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB953030261C956B007294F4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BB953033261C9581007294F4 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BB953038261C9600007294F4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BB95303C261C960A007294F4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB953002261C9555007294F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB953029261C9563007294F4 /* iTunesClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB95301F261C9563007294F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB952FFC261C9555007294F4 = {
+			isa = PBXGroup;
+			children = (
+				BB953007261C9555007294F4 /* MyBookshelf */,
+				BB953023261C9563007294F4 /* iTunesClient */,
+				BB953006261C9555007294F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB953006261C9555007294F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB953005261C9555007294F4 /* MyBookshelf.app */,
+				BB953022261C9563007294F4 /* iTunesClient.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB953007261C9555007294F4 /* MyBookshelf */ = {
+			isa = PBXGroup;
+			children = (
+				BB953037261C95F4007294F4 /* Home */,
+				BB953036261C95E8007294F4 /* App */,
+				BB95300E261C9555007294F4 /* Main.storyboard */,
+				BB953011261C9558007294F4 /* Assets.xcassets */,
+				BB953013261C9558007294F4 /* LaunchScreen.storyboard */,
+				BB953016261C9558007294F4 /* Info.plist */,
+			);
+			path = MyBookshelf;
+			sourceTree = "<group>";
+		};
+		BB953023261C9563007294F4 /* iTunesClient */ = {
+			isa = PBXGroup;
+			children = (
+				BB953024261C9563007294F4 /* iTunesClient.h */,
+				BB953025261C9563007294F4 /* Info.plist */,
+				BB953030261C956B007294F4 /* Model.swift */,
+				BB953033261C9581007294F4 /* API.swift */,
+			);
+			path = iTunesClient;
+			sourceTree = "<group>";
+		};
+		BB953036261C95E8007294F4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BB953008261C9555007294F4 /* AppDelegate.swift */,
+				BB95300A261C9555007294F4 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BB953037261C95F4007294F4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BB953038261C9600007294F4 /* HomeViewController.swift */,
+				BB95303C261C960A007294F4 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BB95301D261C9563007294F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB953026261C9563007294F4 /* iTunesClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB953004261C9555007294F4 /* MyBookshelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB953019261C9558007294F4 /* Build configuration list for PBXNativeTarget "MyBookshelf" */;
+			buildPhases = (
+				BB953001261C9555007294F4 /* Sources */,
+				BB953002261C9555007294F4 /* Frameworks */,
+				BB953003261C9555007294F4 /* Resources */,
+				BB95302E261C9563007294F4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB953028261C9563007294F4 /* PBXTargetDependency */,
+			);
+			name = MyBookshelf;
+			productName = MyBookshelf;
+			productReference = BB953005261C9555007294F4 /* MyBookshelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB953021261C9563007294F4 /* iTunesClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB95302B261C9563007294F4 /* Build configuration list for PBXNativeTarget "iTunesClient" */;
+			buildPhases = (
+				BB95301D261C9563007294F4 /* Headers */,
+				BB95301E261C9563007294F4 /* Sources */,
+				BB95301F261C9563007294F4 /* Frameworks */,
+				BB953020261C9563007294F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesClient;
+			productName = iTunesClient;
+			productReference = BB953022261C9563007294F4 /* iTunesClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB952FFD261C9555007294F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BB953004261C9555007294F4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BB953021261C9563007294F4 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = BB953000261C9555007294F4 /* Build configuration list for PBXProject "MyBookshelf" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB952FFC261C9555007294F4;
+			productRefGroup = BB953006261C9555007294F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB953004261C9555007294F4 /* MyBookshelf */,
+				BB953021261C9563007294F4 /* iTunesClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB953003261C9555007294F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB953015261C9558007294F4 /* LaunchScreen.storyboard in Resources */,
+				BB953012261C9558007294F4 /* Assets.xcassets in Resources */,
+				BB953010261C9555007294F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB953020261C9563007294F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB953001261C9555007294F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB953009261C9555007294F4 /* AppDelegate.swift in Sources */,
+				BB95300B261C9555007294F4 /* SceneDelegate.swift in Sources */,
+				BB95303D261C960A007294F4 /* HomeViewModel.swift in Sources */,
+				BB953039261C9600007294F4 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB95301E261C9563007294F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB953034261C9581007294F4 /* API.swift in Sources */,
+				BB953031261C956B007294F4 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB953028261C9563007294F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB953021261C9563007294F4 /* iTunesClient */;
+			targetProxy = BB953027261C9563007294F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB95300E261C9555007294F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB95300F261C9555007294F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB953013261C9558007294F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB953014261C9558007294F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB953017261C9558007294F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB953018261C9558007294F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB95301A261C9558007294F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22E8VLPFF8;
+				INFOPLIST_FILE = MyBookshelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hu.jozsefvesza.MyBookshelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB95301B261C9558007294F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22E8VLPFF8;
+				INFOPLIST_FILE = MyBookshelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hu.jozsefvesza.MyBookshelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB95302C261C9563007294F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 22E8VLPFF8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iTunesClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hu.jozsefvesza.iTunesClient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB95302D261C9563007294F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 22E8VLPFF8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iTunesClient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hu.jozsefvesza.iTunesClient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB953000261C9555007294F4 /* Build configuration list for PBXProject "MyBookshelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB953017261C9558007294F4 /* Debug */,
+				BB953018261C9558007294F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB953019261C9558007294F4 /* Build configuration list for PBXNativeTarget "MyBookshelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB95301A261C9558007294F4 /* Debug */,
+				BB95301B261C9558007294F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB95302B261C9563007294F4 /* Build configuration list for PBXNativeTarget "iTunesClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB95302C261C9563007294F4 /* Debug */,
+				BB95302D261C9563007294F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB952FFD261C9555007294F4 /* Project object */;
+}
