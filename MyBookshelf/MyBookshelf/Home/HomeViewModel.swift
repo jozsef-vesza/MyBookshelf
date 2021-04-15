@@ -18,6 +18,12 @@ struct HomeViewData {
     let sections: [Section]
 }
 
+struct HomeItemViewData {
+    let title: String?
+    let author: String?
+    let thumbnailURL: URL?
+}
+
 final class HomeViewModel: ObservableObject {
     @Published var viewData: HomeViewData = HomeViewData(sections: [])
     
@@ -49,5 +55,13 @@ final class HomeViewModel: ObservableObject {
                 ])
             })
             .store(in: &subscriptions)
+    }
+    
+    func viewData(for indexPath: IndexPath) -> HomeItemViewData {
+        let book = viewData.sections[indexPath.section].books[indexPath.item]
+        
+        return HomeItemViewData(title: book.title,
+                                author: book.authorName,
+                                thumbnailURL: book.artworkURL)
     }
 }

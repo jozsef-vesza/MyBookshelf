@@ -7,8 +7,10 @@
 
 import UIKit
 
-final class ImageLoader {
+public final class ImageLoader {
     private var imageDownloadTasks: [UUID : URLSessionDataTask] = [:]
+    
+    public init() {}
     
     public func loadImageURL(_ url: URL, into imageView: UIImageView) -> UUID {
         let token = UUID()

@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="asA-3f-ktk" customClass="AudiobookCell" customModule="MyBookshelf" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AudiobookCell" id="asA-3f-ktk" customClass="AudiobookCell" customModule="MyBookshelf" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="279" height="295"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -48,6 +48,11 @@
                 <constraint firstAttribute="bottom" secondItem="0jr-eO-1zl" secondAttribute="bottom" id="umi-SU-kGR"/>
             </constraints>
             <size key="customSize" width="279" height="295"/>
+            <connections>
+                <outlet property="authorLabel" destination="0jr-eO-1zl" id="5iD-ri-GCm"/>
+                <outlet property="imageView" destination="MPh-d6-jEK" id="IyL-jU-cwc"/>
+                <outlet property="titleLabel" destination="0tV-YZ-hzS" id="N96-ul-VPo"/>
+            </connections>
             <point key="canvasLocation" x="229.71014492753625" y="-3.0133928571428572"/>
         </collectionViewCell>
     </objects>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB34E49B2628654B00F0FB5A /* BookDisplaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34E49A2628654B00F0FB5A /* BookDisplaying.swift */; };
 		BB953009261C9555007294F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB953008261C9555007294F4 /* AppDelegate.swift */; };
 		BB95300B261C9555007294F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB95300A261C9555007294F4 /* SceneDelegate.swift */; };
 		BB953010261C9555007294F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB95300E261C9555007294F4 /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB34E49A2628654B00F0FB5A /* BookDisplaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDisplaying.swift; sourceTree = "<group>"; };
 		BB953005261C9555007294F4 /* MyBookshelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBookshelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB953008261C9555007294F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB95300A261C9555007294F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				BB953058261C9DB4007294F4 /* BookCell.xib */,
 				BB953069261C9E00007294F4 /* AudiobookCell.swift */,
 				BB95306A261C9E00007294F4 /* AudiobookCell.xib */,
+				BB34E49A2628654B00F0FB5A /* BookDisplaying.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 			files = (
 				BB953009261C9555007294F4 /* AppDelegate.swift in Sources */,
 				BB953059261C9DB4007294F4 /* BookCell.swift in Sources */,
+				BB34E49B2628654B00F0FB5A /* BookDisplaying.swift in Sources */,
 				BB95306B261C9E00007294F4 /* AudiobookCell.swift in Sources */,
 				BB95300B261C9555007294F4 /* SceneDelegate.swift in Sources */,
 				BB95303D261C960A007294F4 /* HomeViewModel.swift in Sources */,
